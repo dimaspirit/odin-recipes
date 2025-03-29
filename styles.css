@@ -1,9 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 4rem;
   text-align: center;
+  margin: 1rem;
 }
 
 h4 {
   font-size: 1rem;
   text-transform: uppercase;
+  margin: 1rem;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+.recipes li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.home {
+  display: block;
+  padding: .5rem;
+  margin: 1rem;
+  text-align: center;
+} 
